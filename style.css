@@ -5,7 +5,6 @@ body {
     -ms-text-size-adjust: 100% !important;
     -webkit-font-smoothing: antialiased !important;
     font-family: Arial;
-    font-size: 14px;
 }
 
 img {
@@ -42,10 +41,6 @@ span {
     height: auto !important;
 }
 
-.text1 {
-    font-size: 13pt !important;
-}
-
 @media only screen and (min-width:481px) and (max-width:699px) {
     .em_main_table {
         width: 100% !important;
@@ -76,7 +71,23 @@ span {
 @media screen and (max-width: 480px) {
 
     .text1 {
-        font-size: 20pt !important;
+        font-size: 18px !important;
+    }
+
+    .text2 {
+        font-size: 18px !important;
+    }
+
+    .text3 {
+        font-size: 18px !important;
+    }
+
+    .text4 {
+        font-size: 18px !important;
+    }
+
+    .text5 {
+        font-size: 14px !important;
     }
 
     .em_main_table {
