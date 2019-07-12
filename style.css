@@ -68,7 +68,17 @@ span {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
+
+    .col{
+        width: 100%;
+        font-size: 18px;
+
+    }
+
+    .col img{
+        height: 170px;
+    }
 
     .text1 {
         font-size: 18px !important;
